@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "droid";
+  src: url("fontes/idroid.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  margin: 0%;
+  background-color: #84e1ad;
+}
+.link {
+  color: black;
+}
+a.link:hover {
+  color: white;
+}
+header {
+  background-image: linear-gradient(to bottom, #33b76e, #2b975a, #1a5c38);
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.516);
+  margin: 0%;
+  padding-top: 20px;
+  padding-bottom: 2px;
+}
+#titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.478);
+  margin: 0%;
+}
+#t1 {
+  text-align: center;
+}
+
+a {
+  list-style: none;
+  padding-left: 7px;
+  text-decoration: none;
+  color: white;
+}
+main {
+  background-color: white;
+  width: 500px;
+  padding: 3px;
+  margin: auto;
+  box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.664);
+  padding: 10px;
+}
+img {
+  border: 1px solid black;
+}
+h1,
+h2 {
+  font-family: "droid";
+}

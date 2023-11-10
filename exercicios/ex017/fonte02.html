@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /*
+        Medidas absolutas
+        cm,mn, n, px, pt, pc
+
+        Medidas relativas
+        em, ex, rem, vw, vh, %
+        */
+        font-size: 1em;
+        font-weight: bolder;
+        font-style: italic;
+        /* lighter normal bold bolder */
+      }
+      h1 {
+        /* Shorthand font
+        -font-style -> font-weight -> font-size -> font-famly
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+         */
+        font: italic bolder 3em "arial", sans-serif;
+      }
+      h2 {
+        font: bold 2em "arial";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>trabalhando com fontes</h1>
+    <h2>Subtítulo</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum est nemo
+      ipsum, alias, aperiam aspernatur soluta dolore autem unde corrupti,
+      repudiandae assumenda doloribus ad ab. Assumenda eos nulla porro ducimus!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur atque
+      rem, quod nesciunt quas a saepe illum dolores corporis reiciendis officiis
+      libero quos unde, vel non amet cumque enim blanditiis?
+    </p>
+    <h2>Subtítul o do exercício</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+      voluptate aperiam excepturi nobis impedit pariatur, ullam perspiciatis aut
+      deserunt temporibus, dolorum dolore nostrum qui sint velit sit quod
+      volupts molestiae.
+    </p>
+    <h1>Teste</h1>
+  </body>
+</html>
