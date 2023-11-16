@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            /* todo posicionamento de uma box em html é relativo */
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: aqua;
+            background-image: url(imagens/target001.png);
+        }
+        
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            /* com o posicionamento absoluto podemos utilizar as propriedades left e top para centralizar nossas box */
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            /* Transform para igualar  */
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
