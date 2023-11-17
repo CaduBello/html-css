@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: grey;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+header h1 {
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.normal  {
+    color: black;
+    background-color: white;
+
+}
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.393);
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+#i1 {
+    background: black url(pacote-d012/imagens/background001.jpg) center right no-repeat fixed;
+    background-size: cover;
+    
+}
+#i2 {
+    background: black url(pacote-d012/imagens/background002.jpg) center right no-repeat fixed;
+    background-size: cover;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
