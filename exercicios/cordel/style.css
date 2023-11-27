@@ -45,15 +45,21 @@ section{
     background-color: white;
 
 }
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.607);
+}
 .imagem p {
     background-color: rgba(0, 0, 0, 0.393);
     display: inline-block;
-    padding: 20px;
+    padding: 5px;
     color: white;
+    text-shadow: 1.5px 1.5px 0px black;
 }
 #i1 {
-    background: black url(pacote-d012/imagens/background001.jpg) center right no-repeat fixed;
+    background: black url(pacote-d012/imagens/background001.jpg) right center  fixed;
     background-size: cover;
+    /* background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center; */
     
 }
 #i2 {
